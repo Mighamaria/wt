@@ -15,9 +15,19 @@
 		<label>Password</label>
   		<input type="password" name="password"/><br/>
 	<pre><right><a href ="$Forgot the password?">Forgot the password?</a></right>   <right><input type="checkbox" name="remember" value="me"/>Remember me</right></pre><br/>
-	<right><input type="reset" name="reset" value="Reset" /></right>
-	<input type="submit" name="submit" value="Submit" /><br/>
-	
+	<right><button onclick="myClass()">Reset</button></right>
+	<script>
+	function myClass() {
+  	alert("All Fields Are Cleared");
+	}
+	</script>
+
+	<button onclick="myFunction()">Submit</button>
+	<script>
+	function myFunction() {
+  	alert("Registered Successfully");
+	}
+	</script>	
 </center>	
 </form>
 </body>
