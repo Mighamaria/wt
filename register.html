@@ -41,11 +41,21 @@
 	<label>Enter </label>
 	<input type="text" name="id" /> <br/><br/>
 		<label>Phone</label>
-	<input type="text" name="phone" size="10" maxlen="10"/><br/><br/> <input type="reset" name="reset" value="Reset" /></right>
-	<input type="submit" name="submit" value="Submit" 
-		
-</center>	
-	
+	<input type="text" name="phone" size="10" maxlen="10"/><br/><br/> 
+	<right><button onclick="myClass()">Reset</button></right>
+	<script>
+	function myClass() {
+  	alert("All Fields Are Cleared");
+	}
+	</script>
+
+	<button onclick="myFunction()">Submit</button>
+	<script>
+	function myFunction() {
+  	alert("Registered Successfully");
+	}
+	</script>		
+</center>		
 </form>
 </body>
 </html>	
