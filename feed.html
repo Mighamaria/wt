@@ -8,55 +8,88 @@
 </head>
 <body>
 <pre><center><h2>   <a href ="home.html" >Home</a>&nbsp      <a href ="about.html">About</a>&nbsp         <a href ="feed.html">Feedback</a>&nbsp       <a href="register.html">Register</a> /<a href ="login.html">Login</a>&nbsp    <a href ="price.html">Price/Contact</a>  </h2></center></pre>
-<form action ="">
+<table align="center" border="border" cellspacing="5" cellpadding="10" width="30%">
+	<form action ="">
 <center>
-		<label>Email</label>
-  		<input type="email" name="email"/><br/><br/>
-		<label>Password</label>
-  		<input type="password" name="password"/><br/><br/>
-		<label>Name</label>
-  		<input type="text" name="name"/><br/><br/>
-		<label>Address </label><br/>
-		<textarea cols="25" rows="5" value="address">  
-	 	</textarea><br/><br/> 
-		<label>Id Proof</label>
-		<select name="id">
+		<tr>
+		<td><label>Email</label></td>
+  		<td><input type="email" name="email"/></td>
+		</tr>
+		<tr>
+		<td><label>Password</label></td>
+			<td><input type="password" name="password"/></td>
+		</tr>
+	<tr>
+		<td><label>Name</label></td>
+  		<td><input type="text" name="name"/></td>
+		</tr>
+	<tr>
+		<td><label>Address </label></td>
+		<td><textarea cols="25" rows="5" value="address">  
+	 	</textarea></td>
+		</tr>
+	<tr>
+	       <td>	<label>Id Proof</label></td>
+		<td><select name="id">
 	<option>Select Your Id</option>
 	<option>Aadhar Card</option>
 	<option>Voter Id</option>
 	<option>Pan Card</option>
 	<option>Election Id</option>
-	</select><br/><br/>
-	<label>Enter </label>
-	<input type="text" name="id" /> <br/><br/>
-		<label>Phone</label>
-	<input type="text" name="phone" size="10" maxlen="10"/> <br/><br/>
-	<label>Rate Your Experience</label>
-	<input type="range"/><br/>
-	<label>Rate Our Food</label>
-	<input type="range"/><br/>
-	<label>Rate Our Activities</label>
-	<input type="range"/><br/>
-	<label>Rate Our Cleaniness</label>
-	<input type="range"/><br/>
-	<label>Rate Our Parking</label>
-	<input type="range"/><br/><br/>
-	<label>Any Suggestions</label><br/>
-	<textarea cols="25" rows="5" value="suggestion">  
-	 	</textarea><br/><br/>
-<right><button onclick="myClass()">Reset</button></right>
+	</select></td>
+	</tr>
+	<tr>
+	<td><label>Enter </label></td>
+	<td><input type="text" name="id" /> </td>
+		</tr
+		<tr>
+		<td><label>Phone</label></td>
+	<td><input type="text" name="phone" size="10" maxlen="10"/> </td>
+		</tr>
+	<tr>
+	<td><label>Rate Your Experience</label></td>
+	<td><input type="range"/>></td>
+	</tr>
+	<tr>
+	<td><label>Rate Our Food</label></td>
+	<td><input type="range"/></td>
+		</tr>
+	<tr>
+	<td><label>Rate Our Activities</label></td>
+	<td><input type="range"/></td>
+		</tr>
+	<tr>
+	<td><label>Rate Our Cleaniness</label></td>
+	<td><input type="range"/></td>
+		</tr>
+	<tr>
+	<td><label>Rate Our Parking</label></td>
+	<td><input type="range"/></td>
+	</tr>
+		<tr>
+	<td><label>Any Suggestions</label></td>
+	<td><textarea cols="25" rows="5" value="suggestion">  
+	 	</textarea><td>
+		</tr>
+
+	<tr>
+		<td><button onclick="myClass()">Reset</button>
 	<script>
 	function myClass() {
   	alert("All Fields Are Cleared");
 	}
-	</script>
+	</script></td>
 
-	<button onclick="myFunction()">Submit</button>
+	<td><button onclick="myFunction()">Submit</button>
 	<script>
 	function myFunction() {
   	alert("Registered Successfully");
 	}
-	</script>	
+	</script></td>
+	</tr>
 </center>
+</form>
+	</table>
+		
 </body>
 </html>
