@@ -11,43 +11,32 @@
 <pre><center><h2>   <a href ="home.html" >Home</a>&nbsp      <a href ="about.html">About</a>&nbsp     <a href ="book.html">Booking</a>&nbsp      <a href ="cancelling.html">Cancel</a>&nbsp     <a href ="feed.html">Feedback</a>&nbsp       <a href="register.html">Register</a> /<a href ="login.html">Login</a>&nbsp    <a href ="price.html">Price/Contact</a>  </h2></center></pre>
 <form action ="">
 <center>
-		<label>Email</label>
-  		<input type="email" name="email"/><br/><br/>
-		<label>Password</label>
-  		<input type="password" name="password"/><br/><br/>
-		<label>Name</label>
-  		<input type="text" name="name"/><br/><br/>
-		<label>Address </label><br/>
-		<textarea cols="25" rows="5" value="address">  
-	 	</textarea><br/><br/> 
-		<label>Id Proof</label>
-		<select name="id">
-	<option>Select Your Id</option>
-	<option>Aadhar Card</option>
-	<option>Voter Id</option>
-	<option>Pan Card</option>
-	<option>Election Id</option>
-	</select><br/><br/>
-	<label>Enter </label>
-	<input type="text" name="id" /> <br/><br/>
-		<label>Phone</label>
-	<input type="text" name="phone" size="10" maxlen="10"/> <br/><br/>
-	<label>Reasons To Cancel </label><br/>
-		<textarea cols="25" rows="5" value="address">  
-	 	</textarea><br/><br/> 
-<right><button onclick="myClass()">Reset</button></right>
+	<table align="center" border="border"  cellspacing="5" cellpadding="10" width="30%">
+		<tr>
+		<td><label>Booking id</label></td>
+  		<td><input type="="text" name="id""/></td>
+			</tr>
+		<tr>
+	<td><label>Reasons To Cancel </label></td>
+		<td><textarea cols="25" rows="5" value="address">  
+	 	</textarea></td> 
+			</tr>
+		<tr>
+<td><button onclick="myClass()">Reset</button>
 	<script>
 	function myClass() {
   	alert("All Fields Are Cleared");
 	}
-	</script>
+	</script></td>
 
-	<button onclick="myFunction()">Submit</button>
+	</td><button onclick="myFunction()">Submit</button>
 	<script>
 	function myFunction() {
   	alert("Registered Successfully");
 	}
-	</script>	
+	</script>
+	</td>
+	</tr>
 </center>
 </body>
 </html>
