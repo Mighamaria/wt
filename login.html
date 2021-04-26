@@ -3,32 +3,43 @@
 	<title>login</title>
 <h1><center>Orange Valley Group ,Vagamon</center></h1>
 <h4><center>Vagamon- 4Th Mile Road Thangalpara Road.Kolahalamedu, Vagamon,India</center></h4>	
-	<h2><center>Login</center></h2>
 	<meta charset ="utf-8"/>
 </head>
 <body>
 <pre><center><h2>   <a href ="home.html" >Home</a>&nbsp      <a href ="about.html">About</a>&nbsp         <a href ="feed.html">Feedback</a>&nbsp       <a href="register.html">Register</a> /<a href ="login.html">Login</a>&nbsp    <a href ="price.html">Price/Contact</a>  </h2></center></pre>
-<form action ="">
-<center>
-		<label>Email</label>
-  		<input type="email" name="email"/><br/><br/>
-		<label>Password</label>
-  		<input type="password" name="password"/><br/>
-	<pre><right><a href ="forgot.html">Forgot the password?</a></right>   <right><input type="checkbox" name="remember" value="me"/>Remember me</right></pre><br/>
-	<right><button onclick="myClass()">Reset</button></right>
+<h2><center>Login</center></h2>
+	<form action ="">
+	<center>
+	<table align="center" border="border" cellspacing="5" cellpadding="10" width="30%">
+	<tr>
+		<td><label>Email</label></td>
+  		<td><input type="email" name="email"/></td>
+		</tr>
+	<tr>	
+		<td><label>Password</label></td>
+  		<td><input type="password" name="password"/></td>
+	</tr>
+	<tr>
+	<td><pre><><a href ="forgot.html">Forgot the password?</a></right>   <right><input type="checkbox" name="remember" value="me"/>Remember me</right></pre></td></tr>
+	<tr>
+	<td><button onclick="myClass()">Reset</button>
 	<script>
 	function myClass() {
   	alert("All Fields Are Cleared");
 	}
-	</script>
+	</script></td>
 
-	<button onclick="myFunction()">Submit</button>
+	<td><button onclick="myFunction()">Submit</button>
 	<script>
 	function myFunction() {
   	alert("Registered Successfully");
 	}
-	</script>
-		<a href ="book.html">Booking</a>&nbsp      <a href ="cancelling.html">Cancel</a>&nbsp 
+	</script></td>
+	</tr>
+	<tr>
+		<td><a href ="book.html">Booking</a></td>    
+			<td><a href ="cancelling.html">Cancel</a></td> 
+		</tr>
 </center>	
 </form>
 </body>
